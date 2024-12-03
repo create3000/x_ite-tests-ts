@@ -8,6 +8,6 @@ console.log(X3D.X3DConstants.SFNode);
 console.log(X3D.ProfileInfo);
 scene.addRootNode(scene.createNode("Transform"));
 for (const node of Traverse.traverse(scene, Traverse.ROOT_NODES))
-    console.log(node.getNodeTypeName());
+    console.log(node.getTypeName(), node.getNodeTypeName());
 for (const node of scene.traverse())
-    console.log(node.getNodeTypeName());
+    console.log(node.getTypeName(), node.getNodeTypeName());
