@@ -12,5 +12,8 @@ console .log (X3D .ProfileInfo);
 
 scene .addRootNode (scene .createNode ("Transform"));
 
-for (const node of scene .traverse (Traverse .ROOT_NODES))
-   console .log ((node as X3D .SFNode) .getNodeTypeName ())
+for (const node of Traverse .traverse (scene, Traverse .ROOT_NODES))
+   console .log ((node as X3D .SFNode) .getNodeTypeName ());
+
+for (const node of scene .traverse ())
+   console .log ((node as X3D .SFNode) .getNodeTypeName ());
