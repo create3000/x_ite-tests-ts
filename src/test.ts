@@ -5,6 +5,7 @@ const Traverse = traverse (X3D);
 
 const browser: X3D.X3DBrowser = X3D.getBrowser ();
 const scene:   X3D.X3DScene   = browser .currentScene;
+const scene2:  X3D.X3DScene   = await browser .createScene (browser .getProfile ("Core"));
 
 console .log (scene);
 console .log (X3D .X3DConstants .SFNode);
