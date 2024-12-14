@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "x_ite": "^11.0.0",
-    "x3d-traverse": "^1.0.6"
+    "x3d-traverse": "^1.0.7"
   }
 }

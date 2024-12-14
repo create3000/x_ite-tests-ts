@@ -1,5 +1,5 @@
-import X3D from "../../x_ite";
-import traverse from "../../x3d-traverse";
+import X3D from "x_ite";
+import traverse from "x3d-traverse";
 
 const Traverse = traverse (X3D);
 
