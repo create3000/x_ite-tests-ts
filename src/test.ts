@@ -1,7 +1,5 @@
 import X3D from "x_ite";
-import traverse from "x3d-traverse";
-
-const Traverse = traverse (X3D);
+import Traverse from "x3d-traverse";
 
 const browser: X3D.X3DBrowser = X3D.getBrowser ();
 const scene:   X3D.X3DScene   = browser .currentScene;
